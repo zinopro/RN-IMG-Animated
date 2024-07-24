@@ -85,11 +85,11 @@ export default App;
 
 Explanation
 
-    Firebase Configuration:
-        The firebaseConfig.js file initializes Firebase with your project's credentials and exports the Firestore instance (db).
+Firebase Configuration:
+   The firebaseConfig.js file initializes Firebase with your project's credentials and exports the Firestore instance (db).
 
-    Fetching and Sorting Images:
-        The fetchImagesFromFirestore function fetches the images from Firestore, ensuring they are ordered by the index field.
+Fetching and Sorting Images:
+   The fetchImagesFromFirestore function fetches the images from Firestore, ensuring they are ordered by the index field.
 
     State Management and Animation Setup:
         The useState hook manages the images array.
